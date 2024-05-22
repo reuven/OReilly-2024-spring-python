@@ -1,4 +1,4 @@
-print('Hello from {__name__}!')
+print(f'Hello from {__name__}!')
 
 def count_vowels(s):
     total = 0
@@ -7,6 +7,6 @@ def count_vowels(s):
             total += 1
     return total
 
-print('Goodbye from {__name__}!')
+print(f'Goodbye from {__name__}!')
 
 
